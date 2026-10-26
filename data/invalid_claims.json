@@ -1,0 +1,5 @@
+[
+ {"claim_id":"C-DUP","policy_number":"POL-5521","claim_type":"fire","loss_date":"2026-08-20","report_date":"2026-08-19","claim_amount":1000,"description":"Inconsistent dates"},
+ {"claim_id":"C-DUP","policy_number":"POL-0000","claim_type":"theft","loss_date":"2026-08-01","report_date":"2026-08-02","claim_amount":1500,"description":"Duplicate and unknown policy"},
+ {"policy_number":"POL-5521","claim_type":"fire","loss_date":"2026-08-01","report_date":"2026-08-02","claim_amount":"not-a-number","description":"Missing claim ID"}
+]

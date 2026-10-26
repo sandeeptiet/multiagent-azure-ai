@@ -1,0 +1,15 @@
+**
+!Dockerfile
+!pyproject.toml
+!requirements.lock
+!app.py
+!claims_triage/
+!claims_triage/**
+!data/
+!data/**
+!knowledge/
+!knowledge/**
+!.streamlit/
+!.streamlit/config.toml
+**/__pycache__/
+**/*.pyc

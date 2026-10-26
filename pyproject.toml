@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foundry-claims-triage"
+version = "0.1.0"
+description = "Synthetic insurance claims triage with four Foundry agents"
+requires-python = ">=3.11"
+dependencies = ["python-dotenv>=1,<2", "jsonschema>=4.23,<5"]
+
+[project.optional-dependencies]
+azure = ["azure-ai-projects==1.0.0", "azure-ai-agents==1.1.0", "azure-identity>=1.23,<2"]
+ui = ["streamlit>=1.45,<2"]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+claims-triage = "claims_triage.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["claims_triage*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

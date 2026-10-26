@@ -1,0 +1,11 @@
+[
+    {
+        "claim_id": "C-MEM-9001",
+        "policy_number": "POL-7710",
+        "claim_type": "collision",
+        "loss_date": "2026-09-20",
+        "report_date": "2026-09-21",
+        "claim_amount": 1800,
+        "description": "Synthetic second collision for persistent memory testing"
+    }
+]

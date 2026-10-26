@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name":"Claims triage demo","type":"debugpy","request":"launch","module":"claims_triage","args":["--backend","mock","--state-dir",".runtime/vscode-demo","demo"],"console":"integratedTerminal","justMyCode":true},
+    {"name":"Claims triage UI","type":"debugpy","request":"launch","module":"streamlit","args":["run","app.py"],"console":"integratedTerminal","justMyCode":true}
+  ]
+}

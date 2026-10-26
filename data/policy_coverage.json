@@ -1,0 +1,6 @@
+[
+  {"policy_number":"POL-5521","coverage_type":"homeowners","covered_claim_types":["water_damage","fire","theft"],"policy_limit":50000,"active_from":"2025-01-01","active_to":"2026-12-31"},
+  {"policy_number":"POL-9981","coverage_type":"homeowners","covered_claim_types":["water_damage","fire","theft"],"policy_limit":25000,"active_from":"2026-08-27","active_to":"2027-08-27"},
+  {"policy_number":"POL-4410","coverage_type":"homeowners","covered_claim_types":["water_damage","fire","theft"],"policy_limit":40000,"active_from":"2024-01-01","active_to":"2026-01-01"},
+  {"policy_number":"POL-7710","coverage_type":"auto","covered_claim_types":["collision","theft"],"policy_limit":30000,"active_from":"2025-01-01","active_to":"2027-12-31"}
+]
